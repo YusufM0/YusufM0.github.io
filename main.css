@@ -1,0 +1,234 @@
+@font-face {
+    font-family: title;
+    src: url(./Fonts/vikingsquadbold.ttf)
+}
+@font-face {
+    font-family: Exo;
+    src: url(./Fonts/Exo.otf)
+}
+body {
+    background-color: rgb(2,10,5);
+    background-image: url(./Black_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+p {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: rgb(180,210,200);
+}
+
+#header{
+    background-color: rgba(30,30,30,0.9);
+    width: 100%;
+    height: 55px;
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+}
+
+    .div-button{
+    width: 20%;
+    background-color: rgba(10,190,140,0.7);
+    display :inline-block;
+    color: rgb(20,0,0);
+}
+
+.youtube-button{
+    width: 10%;
+    background-color: rgba(5,130,70,0.0);
+    display :inline-block;
+    color: rgb(20,0,0);
+}
+
+.div-scroll{
+    margin: auto;
+    background-color: rgba(20,20,20,0.7);
+    width: 90%;
+    height: 100%;
+}
+
+.pic-holder{
+    width: 50%;
+    float:right;
+}
+
+.main-pic{
+    align: center;
+    margin: auto;
+    margin-top: 15px;
+    width: 100%;
+    height: 90%;
+}
+
+.left-div{
+    float: left;
+    width: 50%;
+}
+
+.left-text-title{
+    font-size: 120%;
+    color: rgb(10,100,25);
+    float:left;
+    display: inline;
+    font-family: AGENCY FB;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.left-text-title2{
+    background-color: rgba(5,30,10,0.7);
+    font-size: 120%;
+    color: rgb(10,100,25);
+    float:left;
+    display: inline;
+    font-family: Agency FB;
+    font-size: 35px;
+    font-weight: bold;
+}
+.left-text{
+    color: rgb(10,100,25);
+    float:left;
+    display: inline;
+    font-size: 30px;
+    font-family: AGENCY FB;
+}
+
+#event-friends-div{
+    border-width: 0 0 5px 0;
+    border-style: solid;
+    border-color: rgba(10,150,25,0.7);
+    font-size: 20px;
+    font-family: title;
+    color: rgb(10,160,15);
+    text-align: center;
+    height: 50px;
+    float: left;
+    width: 50%;
+    margin-left: 5%;
+    background-color: rgba(5,30,5,0.7);
+}
+
+#youtube-div{
+    height: 50px;
+    border-width: 0 0 5px 0;
+    border-style: solid;
+    border-color: rgba(10,100,25,0.0);
+    background-color: rgba(5,30,10,0.0);
+    width: 10%;
+    float: left;
+}
+
+#twitter-div{
+    height: 50px;
+    border-width: 0 0 5px 0;
+    border-style: solid;
+    border-color: rgba(10,100,25,0.0);
+    background-color: rgba(5,30,10,0.0);
+    width: 10%;
+    float: left;
+}
+
+#event-friends-div h1{
+    margin-top: 05px;
+    font-weight: normal;
+}
+
+a{
+    outline: 0;
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: rgb(10,200,25);
+}
+
+#event-friends-div:hover{
+    transition-duration: 0.2s;
+    border-color: rgba(40,40,40,0.7);
+    color: rgb(40,40,40);
+    background-color: rgba(10,190,25,0.7);
+}
+
+#event-friends-div:hover a:visited{
+    transition-duration: 0.2s;
+    color: rgb(40,40,40);
+}
+
+#youtube-img{
+    height: 100%;
+}
+
+#twitter-img{
+    height: 100%;
+}
+
+#youtube-div:hover{
+    transition-duration: 0.2s;
+    border-color: rgba(10,190,25,0.7);
+    background-color: rgba(5,30,5,0.7);
+}
+
+#twitter-div:hover{
+    transition-duration: 0.2s;
+    border-color: rgba(10,190,25,0.7);
+    background-color: rgba(5,30,5,0.7);
+}
+
+#join-now-div{
+    border-width: 0 0 5px 0;
+    border-style: solid;
+    border-color: rgba(40,40,40,0.7);
+    font-size: 20px;
+    font-family: title;
+    color: rgb(40,40,40);
+    text-align: center;
+    height: 50px;
+    float: right;
+    width: 20%;
+    margin-right: 5%;
+    background-color: rgba(10,100,25,0.7);
+}
+
+#join-now-div:hover{
+    transition-duration: 0.2s;
+    border-color: rgba(10,100,25,0.7);
+    color: rgb(10,100,25);
+    background-color: rgba(5,30,5,0.7);
+}
+
+#join-now-div h1{
+    margin-top: 5px;
+    font-weight: normal;
+}
+
+#join-now-div a{
+    color: rgb(40,40,40);
+}
+
+#join-now-div:hover a{
+    color: rgb(10,100,25);
+}
+#footer-text{
+    font-family: title;
+    color: rgb(5,5,5);
+    font-size: 35px;
+}
+#footer{
+    background-color: rgba(5,30,5,1);
+    width: 100%;
+    border-top: 3px;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-color: rgb(10,190,25);
+    height: 130px;
+    border-style: solid;
+    text-align: left;
+}
+#mono-logo{
+    height: 100%;
+    float: left;
+}
